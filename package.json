@@ -1,0 +1,12 @@
+{
+  "title": "Quick Accept-Language Switcher",
+  "name": "quick-accept-language-switcher",
+  "version": "0.9.0",
+  "description": "Provides a quick way of changing the HTTP Accept-Language header so you can view websites with a different locale.",
+  "main": "index.js",
+  "author": "callahad",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT"
+}
