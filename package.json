@@ -8,12 +8,5 @@
   "engines": {
     "firefox": ">=38.0a1"
   },
-  "scripts": {
-    "start": "jpm run",
-    "xpi": "jpm xpi"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "jpm": "^1.0.1"
-  }
+  "license": "MIT"
 }
