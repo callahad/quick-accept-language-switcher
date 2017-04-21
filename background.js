@@ -4,7 +4,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
   details => {
     if (locale) {
       for (var header of details.requestHeaders) {
-        if (header.name == "Accept-Language") {
+        if (header.name.toLowerCase() == "accept-language") {
           header.value = locale;
         }
       }

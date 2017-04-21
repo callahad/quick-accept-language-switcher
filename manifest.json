@@ -2,7 +2,7 @@
   "description": "Provides a quick way of changing the HTTP Accept-Language header so you can view and test websites with a different locale.",
   "manifest_version": 2,
   "name": "Quick Accept-Language Switcher",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/callahad/quick-accept-language-switcher",
   "icons": {
     "128": "icon.svg"
