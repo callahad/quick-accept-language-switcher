@@ -33,7 +33,7 @@
           acceptLanguageSubstringArrayHighestWeightedItems = [];
           acceptLanguageSubstringArrayHighestWeightedItems.push(acceptLanguageSubstringArrayItem[0]);
         }
-        else if (acceptLanguageSubstringArrayItemWeight >= acceptLanguageSubstringArrayHighestWeight) {
+        else if (acceptLanguageSubstringArrayItemWeight === acceptLanguageSubstringArrayHighestWeight) {
           acceptLanguageSubstringArrayHighestWeightedItems.push(acceptLanguageSubstringArrayItem[0]);
         }
       }
