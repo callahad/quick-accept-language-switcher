@@ -42,15 +42,11 @@
           /* One |accept-language| substring has the highest weight. */
           return acceptLanguageSubstringArrayHighestWeightedItems[0];
         }
-        else {
-          /* Multiple |accept-language| substrings have the highest weight. */
-          return 'mul';
-        }
+        /* Multiple |accept-language| substrings have the highest weight. */
+        return 'mul';
       }
-      else {
-        /* Zero |accept-language| substrings have a weight exceeding zero. */
-        return 'q=0';
-      }
+      /* Zero |accept-language| substrings have a weight exceeding zero. */
+      return 'q=0';
     }
     /* The |accept-language| string is invalid. */
     return '⚠\u{fe0f}';
