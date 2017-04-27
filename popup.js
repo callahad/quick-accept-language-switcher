@@ -44,7 +44,7 @@
         }
         else {
           /* Multiple |accept-language| substrings have the highest weight. */
-          return "mul";
+          return 'mul';
         }
       }
       else {
