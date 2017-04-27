@@ -53,7 +53,7 @@
       }
     }
     /* The |accept-language| string is invalid. */
-    return '⚠';
+    return '⚠\u{fe0f}';
   }
 
   let updateBadge = (text) => {
