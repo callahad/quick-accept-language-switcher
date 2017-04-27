@@ -19,6 +19,9 @@
   }
 
   let getHighestWeightedAcceptLanguage = (text) => {
+    if (text === "") {
+      return "";
+    }
     if (validAcceptLanguageStringRegex.test(text)) {
       let acceptLanguageString = text;
       let acceptLanguageSubstringArray = acceptLanguageString.split(',');
