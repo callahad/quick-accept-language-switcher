@@ -21,6 +21,6 @@
   });
 
   input.addEventListener('keydown', e => {
-    if (e.key === "Enter") { window.close(); }
+    if (e.key === "Enter") { window.setTimeout(window.close, 1); }
   });
 }
