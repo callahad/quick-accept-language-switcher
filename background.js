@@ -22,3 +22,9 @@ function setLocaleString(s) {
 function getLocaleString() {
   return locale;
 }
+
+browser.storage.sync.get('locale').then(data => {
+    if(data['locale']) {
+        setLocaleString(data['locale']);
+    }
+});
