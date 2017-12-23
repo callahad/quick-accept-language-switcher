@@ -18,6 +18,7 @@
 
   input.addEventListener('input', e => {
     backgroundPage.setLocaleString(e.target.value);
+    browser.storage.sync.set({'locale': e.target.value});
   });
 
   input.addEventListener('keydown', e => {
